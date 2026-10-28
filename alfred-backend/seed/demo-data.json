@@ -1,0 +1,665 @@
+{
+  "venues": [
+    {
+      "id": 1,
+      "name": "Estação das Artes",
+      "city": "Joinville",
+      "state": "SC",
+      "address": "Centro, Joinville",
+      "latitude": -26.3044,
+      "longitude": -48.8487
+    },
+    {
+      "id": 2,
+      "name": "Cine Atlas",
+      "city": "Joinville",
+      "state": "SC",
+      "address": "América, Joinville",
+      "latitude": -26.2921,
+      "longitude": -48.8589
+    },
+    {
+      "id": 3,
+      "name": "Casa Prisma",
+      "city": "Joinville",
+      "state": "SC",
+      "address": "Atiradores, Joinville",
+      "latitude": -26.3057,
+      "longitude": -48.8702
+    },
+    {
+      "id": 4,
+      "name": "Teatro Aurora",
+      "city": "Joinville",
+      "state": "SC",
+      "address": "Centro, Joinville",
+      "latitude": -26.3064,
+      "longitude": -48.8471
+    },
+    {
+      "id": 5,
+      "name": "Arena Mirante",
+      "city": "Florianópolis",
+      "state": "SC",
+      "address": "Centro, Florianópolis",
+      "latitude": -27.5954,
+      "longitude": -48.548
+    },
+    {
+      "id": 6,
+      "name": "Palco da Ilha",
+      "city": "Florianópolis",
+      "state": "SC",
+      "address": "Trindade, Florianópolis",
+      "latitude": -27.6012,
+      "longitude": -48.5212
+    },
+    {
+      "id": 7,
+      "name": "Clube Vértice",
+      "city": "Curitiba",
+      "state": "PR",
+      "address": "Batel, Curitiba",
+      "latitude": -25.443,
+      "longitude": -49.2904
+    },
+    {
+      "id": 8,
+      "name": "Centro Cultural Horizonte",
+      "city": "Curitiba",
+      "state": "PR",
+      "address": "Centro, Curitiba",
+      "latitude": -25.4284,
+      "longitude": -49.2733
+    },
+    {
+      "id": 9,
+      "name": "Galeria Sonora",
+      "city": "São Paulo",
+      "state": "SP",
+      "address": "Pinheiros, São Paulo",
+      "latitude": -23.5661,
+      "longitude": -46.6918
+    },
+    {
+      "id": 10,
+      "name": "Teatro Passagem",
+      "city": "São Paulo",
+      "state": "SP",
+      "address": "Bela Vista, São Paulo",
+      "latitude": -23.5604,
+      "longitude": -46.6494
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "title": "Festival Aurora",
+      "category": "shows",
+      "startAt": "2026-10-24T20:00:00-03:00",
+      "venueId": 1,
+      "venue": {
+        "id": 1,
+        "name": "Estação das Artes",
+        "city": "Joinville",
+        "state": "SC",
+        "address": "Centro, Joinville",
+        "latitude": -26.3044,
+        "longitude": -48.8487
+      },
+      "genres": [
+        "pop",
+        "indie"
+      ],
+      "description": "Três palcos, novas descobertas e uma noite inesquecível.",
+      "accent": "violet",
+      "isPublished": true,
+      "lots": [
+        {
+          "id": 11,
+          "name": "Entrada inteira",
+          "price": 89.9,
+          "available": 120
+        },
+        {
+          "id": 12,
+          "name": "Meia-entrada",
+          "price": 44.95,
+          "available": 60
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Noite Neon: Eletrônica & House",
+      "category": "baladas",
+      "startAt": "2026-10-30T23:00:00-03:00",
+      "venueId": 3,
+      "venue": {
+        "id": 3,
+        "name": "Casa Prisma",
+        "city": "Joinville",
+        "state": "SC",
+        "address": "Atiradores, Joinville",
+        "latitude": -26.3057,
+        "longitude": -48.8702
+      },
+      "genres": [
+        "eletronica",
+        "house"
+      ],
+      "description": "Luzes, sintetizadores e DJs da cena independente.",
+      "accent": "electric",
+      "isPublished": true,
+      "lots": [
+        {
+          "id": 21,
+          "name": "Entrada inteira",
+          "price": 65.0,
+          "available": 120
+        },
+        {
+          "id": 22,
+          "name": "Meia-entrada",
+          "price": 32.5,
+          "available": 60
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "O Mistério da Última Sessão",
+      "category": "cinema",
+      "startAt": "2026-11-01T19:30:00-03:00",
+      "venueId": 2,
+      "venue": {
+        "id": 2,
+        "name": "Cine Atlas",
+        "city": "Joinville",
+        "state": "SC",
+        "address": "América, Joinville",
+        "latitude": -26.2921,
+        "longitude": -48.8589
+      },
+      "genres": [],
+      "description": "Pré-estreia especial com conversa após a sessão.",
+      "accent": "coral",
+      "isPublished": true,
+      "lots": [
+        {
+          "id": 31,
+          "name": "Entrada inteira",
+          "price": 34.0,
+          "available": 120
+        },
+        {
+          "id": 32,
+          "name": "Meia-entrada",
+          "price": 17.0,
+          "available": 60
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Corpos em Movimento",
+      "category": "danca",
+      "startAt": "2026-11-06T20:00:00-03:00",
+      "venueId": 4,
+      "venue": {
+        "id": 4,
+        "name": "Teatro Aurora",
+        "city": "Joinville",
+        "state": "SC",
+        "address": "Centro, Joinville",
+        "latitude": -26.3064,
+        "longitude": -48.8471
+      },
+      "genres": [],
+      "description": "Espetáculo contemporâneo de dança e expressão.",
+      "accent": "rose",
+      "isPublished": true,
+      "lots": [
+        {
+          "id": 41,
+          "name": "Entrada inteira",
+          "price": 59.9,
+          "available": 120
+        },
+        {
+          "id": 42,
+          "name": "Meia-entrada",
+          "price": 29.95,
+          "available": 60
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Jardim de Vozes",
+      "category": "teatro",
+      "startAt": "2026-11-12T20:30:00-03:00",
+      "venueId": 4,
+      "venue": {
+        "id": 4,
+        "name": "Teatro Aurora",
+        "city": "Joinville",
+        "state": "SC",
+        "address": "Centro, Joinville",
+        "latitude": -26.3064,
+        "longitude": -48.8471
+      },
+      "genres": [],
+      "description": "Uma peça sobre encontros, memória e recomeços.",
+      "accent": "gold",
+      "isPublished": true,
+      "lots": [
+        {
+          "id": 51,
+          "name": "Entrada inteira",
+          "price": 48.0,
+          "available": 120
+        },
+        {
+          "id": 52,
+          "name": "Meia-entrada",
+          "price": 24.0,
+          "available": 60
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Feira Criativa da Cidade",
+      "category": "cultura",
+      "startAt": "2026-11-21T14:00:00-03:00",
+      "venueId": 1,
+      "venue": {
+        "id": 1,
+        "name": "Estação das Artes",
+        "city": "Joinville",
+        "state": "SC",
+        "address": "Centro, Joinville",
+        "latitude": -26.3044,
+        "longitude": -48.8487
+      },
+      "genres": [],
+      "description": "Artes visuais, música, oficinas e sabores locais.",
+      "accent": "teal",
+      "isPublished": true,
+      "lots": [
+        {
+          "id": 61,
+          "name": "Entrada inteira",
+          "price": 15.0,
+          "available": 120
+        },
+        {
+          "id": 62,
+          "name": "Meia-entrada",
+          "price": 7.5,
+          "available": 60
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Indie na Ilha",
+      "category": "shows",
+      "startAt": "2026-11-07T21:00:00-03:00",
+      "venueId": 5,
+      "venue": {
+        "id": 5,
+        "name": "Arena Mirante",
+        "city": "Florianópolis",
+        "state": "SC",
+        "address": "Centro, Florianópolis",
+        "latitude": -27.5954,
+        "longitude": -48.548
+      },
+      "genres": [
+        "indie",
+        "rock"
+      ],
+      "description": "Bandas autorais, guitarras e céu aberto.",
+      "accent": "violet",
+      "isPublished": true,
+      "lots": [
+        {
+          "id": 71,
+          "name": "Entrada inteira",
+          "price": 72.0,
+          "available": 120
+        },
+        {
+          "id": 72,
+          "name": "Meia-entrada",
+          "price": 36.0,
+          "available": 60
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Sexta do Funk & Pop",
+      "category": "baladas",
+      "startAt": "2026-11-13T23:00:00-03:00",
+      "venueId": 6,
+      "venue": {
+        "id": 6,
+        "name": "Palco da Ilha",
+        "city": "Florianópolis",
+        "state": "SC",
+        "address": "Trindade, Florianópolis",
+        "latitude": -27.6012,
+        "longitude": -48.5212
+      },
+      "genres": [
+        "funk",
+        "pop"
+      ],
+      "description": "Uma noite de hits, dança e energia brasileira.",
+      "accent": "coral",
+      "isPublished": true,
+      "lots": [
+        {
+          "id": 81,
+          "name": "Entrada inteira",
+          "price": 55.0,
+          "available": 120
+        },
+        {
+          "id": 82,
+          "name": "Meia-entrada",
+          "price": 27.5,
+          "available": 60
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Jazz de Outono",
+      "category": "shows",
+      "startAt": "2026-11-19T20:00:00-03:00",
+      "venueId": 8,
+      "venue": {
+        "id": 8,
+        "name": "Centro Cultural Horizonte",
+        "city": "Curitiba",
+        "state": "PR",
+        "address": "Centro, Curitiba",
+        "latitude": -25.4284,
+        "longitude": -49.2733
+      },
+      "genres": [
+        "jazz",
+        "mpb"
+      ],
+      "description": "Quarteto instrumental e convidados em uma noite especial.",
+      "accent": "gold",
+      "isPublished": true,
+      "lots": [
+        {
+          "id": 91,
+          "name": "Entrada inteira",
+          "price": 68.0,
+          "available": 120
+        },
+        {
+          "id": 92,
+          "name": "Meia-entrada",
+          "price": 34.0,
+          "available": 60
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Rave Prisma",
+      "category": "baladas",
+      "startAt": "2026-11-27T23:30:00-03:00",
+      "venueId": 7,
+      "venue": {
+        "id": 7,
+        "name": "Clube Vértice",
+        "city": "Curitiba",
+        "state": "PR",
+        "address": "Batel, Curitiba",
+        "latitude": -25.443,
+        "longitude": -49.2904
+      },
+      "genres": [
+        "eletronica",
+        "house",
+        "techno"
+      ],
+      "description": "Pista imersiva e música até o amanhecer.",
+      "accent": "electric",
+      "isPublished": true,
+      "lots": [
+        {
+          "id": 101,
+          "name": "Entrada inteira",
+          "price": 92.0,
+          "available": 120
+        },
+        {
+          "id": 102,
+          "name": "Meia-entrada",
+          "price": 46.0,
+          "available": 60
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Encontro de Culturas",
+      "category": "cultura",
+      "startAt": "2026-11-29T15:00:00-03:00",
+      "venueId": 8,
+      "venue": {
+        "id": 8,
+        "name": "Centro Cultural Horizonte",
+        "city": "Curitiba",
+        "state": "PR",
+        "address": "Centro, Curitiba",
+        "latitude": -25.4284,
+        "longitude": -49.2733
+      },
+      "genres": [],
+      "description": "Exposições, debates e intervenções artísticas.",
+      "accent": "teal",
+      "isPublished": true,
+      "lots": [
+        {
+          "id": 111,
+          "name": "Entrada inteira",
+          "price": 22.0,
+          "available": 120
+        },
+        {
+          "id": 112,
+          "name": "Meia-entrada",
+          "price": 11.0,
+          "available": 60
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "MPB de Perto",
+      "category": "shows",
+      "startAt": "2026-12-04T20:00:00-03:00",
+      "venueId": 9,
+      "venue": {
+        "id": 9,
+        "name": "Galeria Sonora",
+        "city": "São Paulo",
+        "state": "SP",
+        "address": "Pinheiros, São Paulo",
+        "latitude": -23.5661,
+        "longitude": -46.6918
+      },
+      "genres": [
+        "mpb",
+        "brasileira"
+      ],
+      "description": "Canções brasileiras em um palco intimista.",
+      "accent": "rose",
+      "isPublished": true,
+      "lots": [
+        {
+          "id": 121,
+          "name": "Entrada inteira",
+          "price": 79.9,
+          "available": 120
+        },
+        {
+          "id": 122,
+          "name": "Meia-entrada",
+          "price": 39.95,
+          "available": 60
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "A Carta que Não Enviei",
+      "category": "teatro",
+      "startAt": "2026-12-12T19:30:00-03:00",
+      "venueId": 10,
+      "venue": {
+        "id": 10,
+        "name": "Teatro Passagem",
+        "city": "São Paulo",
+        "state": "SP",
+        "address": "Bela Vista, São Paulo",
+        "latitude": -23.5604,
+        "longitude": -46.6494
+      },
+      "genres": [],
+      "description": "Drama contemporâneo sobre escolhas e afetos.",
+      "accent": "gold",
+      "isPublished": true,
+      "lots": [
+        {
+          "id": 131,
+          "name": "Entrada inteira",
+          "price": 49.0,
+          "available": 120
+        },
+        {
+          "id": 132,
+          "name": "Meia-entrada",
+          "price": 24.5,
+          "available": 60
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Cine Fantasia: Clássicos",
+      "category": "cinema",
+      "startAt": "2026-12-18T20:00:00-03:00",
+      "venueId": 2,
+      "venue": {
+        "id": 2,
+        "name": "Cine Atlas",
+        "city": "Joinville",
+        "state": "SC",
+        "address": "América, Joinville",
+        "latitude": -26.2921,
+        "longitude": -48.8589
+      },
+      "genres": [],
+      "description": "Sessão temática com seleção especial de curtas.",
+      "accent": "electric",
+      "isPublished": true,
+      "lots": [
+        {
+          "id": 141,
+          "name": "Entrada inteira",
+          "price": 29.9,
+          "available": 120
+        },
+        {
+          "id": 142,
+          "name": "Meia-entrada",
+          "price": 14.95,
+          "available": 60
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Rock no Pátio",
+      "category": "shows",
+      "startAt": "2026-12-19T20:30:00-03:00",
+      "venueId": 3,
+      "venue": {
+        "id": 3,
+        "name": "Casa Prisma",
+        "city": "Joinville",
+        "state": "SC",
+        "address": "Atiradores, Joinville",
+        "latitude": -26.3057,
+        "longitude": -48.8702
+      },
+      "genres": [
+        "rock",
+        "indie"
+      ],
+      "description": "Noite de guitarras, novas bandas e muita energia.",
+      "accent": "coral",
+      "isPublished": true,
+      "lots": [
+        {
+          "id": 151,
+          "name": "Entrada inteira",
+          "price": 49.9,
+          "available": 120
+        },
+        {
+          "id": 152,
+          "name": "Meia-entrada",
+          "price": 24.95,
+          "available": 60
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Mostra de Dança da Ilha",
+      "category": "danca",
+      "startAt": "2027-01-09T19:00:00-03:00",
+      "venueId": 6,
+      "venue": {
+        "id": 6,
+        "name": "Palco da Ilha",
+        "city": "Florianópolis",
+        "state": "SC",
+        "address": "Trindade, Florianópolis",
+        "latitude": -27.6012,
+        "longitude": -48.5212
+      },
+      "genres": [],
+      "description": "Coreografias de grupos da região em uma mostra coletiva.",
+      "accent": "teal",
+      "isPublished": true,
+      "lots": [
+        {
+          "id": 161,
+          "name": "Entrada inteira",
+          "price": 42.0,
+          "available": 120
+        },
+        {
+          "id": 162,
+          "name": "Meia-entrada",
+          "price": 21.0,
+          "available": 60
+        }
+      ]
+    }
+  ]
+}
